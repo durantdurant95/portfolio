@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
 import Link from "next/link";
@@ -25,6 +26,7 @@ export default function RootLayout({
           <div className="h-[1px] grow bg-black" />
         </nav>
         {children}
+        <SpeedInsights />
         <footer className="flex items-center justify-center gap-6">
           {/* //TODO: Add real links to social media */}
           <div className="h-[1px] w-4 bg-black" />
