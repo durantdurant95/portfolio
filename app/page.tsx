@@ -1,7 +1,11 @@
 export default function Home() {
   return (
     <main className="grow">
-      <h1>Hello from Durant Porfolio</h1>
+      {/* Name and photo section */}
+      <section>
+        <h1>Durant</h1>
+      </section>
+      {/* //TODO Links section */}
     </main>
   );
 }

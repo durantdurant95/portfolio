@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
 import Link from "next/link";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 import "./globals.css";
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
@@ -24,11 +25,15 @@ export default function RootLayout({
           <div className="h-[1px] grow bg-black" />
         </nav>
         {children}
-        <footer className="flex items-center justify-center gap-4">
+        <footer className="flex items-center justify-center gap-6">
           {/* //TODO: Add real links to social media */}
-          <Link href="/work">Work</Link>
-          <Link href="/work">Work</Link>
-          <Link href="/work">Work</Link>
+          <div className="h-[1px] w-4 bg-black" />
+          <Link href="https://github.com/durantdurant95">
+            <FiGithub />
+          </Link>
+          <Link href="https://www.linkedin.com/in/alejandro-p%C3%A9rez-dur%C3%A1n-754a8324a/">
+            <FiLinkedin />
+          </Link>
           <div className="h-[1px] grow bg-black" />
         </footer>
       </body>
