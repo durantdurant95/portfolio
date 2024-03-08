@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
@@ -26,6 +27,7 @@ export default function RootLayout({
           <div className="h-[1px] grow bg-black" />
         </nav>
         {children}
+        <Analytics />
         <SpeedInsights />
         <footer className="flex items-center justify-center gap-6">
           {/* //TODO: Add real links to social media */}
