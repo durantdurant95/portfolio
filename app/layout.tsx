@@ -13,11 +13,7 @@ export const metadata: Metadata = {
   description: "A place to display my latest work and projects.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body className={`${comfortaa.className} flex h-screen flex-col p-4`}>
@@ -30,7 +26,6 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         <footer className="flex items-center justify-center gap-6">
-          {/* //TODO: Add real links to social media */}
           <div className="h-[1px] w-4 bg-black" />
           <Link href="https://github.com/durantdurant95">
             <FiGithub />
@@ -39,8 +34,10 @@ export default function RootLayout({
             <FiLinkedin />
           </Link>
           <div className="h-[1px] grow bg-black" />
+          <p className="text-xs">©/2024</p>
         </footer>
       </body>
     </html>
   );
-}
+};
+export default RootLayout;
