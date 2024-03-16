@@ -1,12 +1,12 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
-import { Comfortaa } from "next/font/google";
+import { Noto_Serif } from "next/font/google";
 import Link from "next/link";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import "./globals.css";
 
-const comfortaa = Comfortaa({ subsets: ["latin"] });
+const notoSerif = Noto_Serif({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Durant Portfolio",
@@ -16,7 +16,9 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={`${comfortaa.className} flex h-screen flex-col p-4`}>
+      <body
+        className={`${notoSerif.className} flex h-screen flex-col p-4 md:p-8 lg:p-12`}
+      >
         <nav className="flex items-center justify-center gap-4">
           <div className="h-[1px] grow bg-black " />
           <Link href="/">Durant</Link>
