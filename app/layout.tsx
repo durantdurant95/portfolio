@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Durant Portfolio",
   description: "A place to display my latest work and projects.",
 };
+//Coment here just for fun
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
