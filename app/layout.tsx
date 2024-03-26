@@ -16,27 +16,27 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.className} text-main bg-background flex h-screen flex-col p-4 md:p-8 lg:p-12`}
+        className={`${montserrat.className} flex h-screen flex-col bg-background p-4 text-main md:p-8 lg:p-12`}
       >
         <nav className="flex items-center justify-center gap-4">
-          <div className="bg-main h-[1px] grow " />
-          <Link className="font-bold" href="/">
+          <div className="h-[1px] grow bg-main " />
+          <Link className="font-semibold" href="/">
             DURANT.DEV
           </Link>
-          <div className="bg-main h-[1px] grow" />
+          <div className="h-[1px] grow bg-main" />
         </nav>
         {children}
         <Analytics />
         <SpeedInsights />
         <footer className="flex items-center justify-center gap-6">
-          <div className="bg-main h-[1px] w-4" />
+          <div className="h-[1px] w-4 bg-main" />
           <Link href="https://github.com/durantdurant95">
             <FiGithub />
           </Link>
           <Link href="https://www.linkedin.com/in/alejandro-p%C3%A9rez-dur%C3%A1n-754a8324a/">
             <FiLinkedin />
           </Link>
-          <div className="bg-main h-[1px] grow" />
+          <div className="h-[1px] grow bg-main" />
           <p className="text-xs">©/2024</p>
         </footer>
       </body>
