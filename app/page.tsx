@@ -48,6 +48,12 @@ const Home = () => {
         >
           CONTACT
         </Link>
+        <Link
+          href="/contact"
+          className="transition-all hover:scale-[1.02] hover:font-extrabold"
+        >
+          NEW LINK
+        </Link>
       </section>
     </main>
   );
