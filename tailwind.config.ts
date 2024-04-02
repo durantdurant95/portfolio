@@ -9,10 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        main: "#163020",
-        background: "#EEF0E5",
-        // main: " #F6F1EE",
-        // background: "#113946",
+        celtic: {
+          "50": "#ecfff4",
+          "100": "#d3ffe6",
+          "200": "#aaffce",
+          "300": "#69ffaa",
+          "400": "#21ff7d",
+          "500": "#00f25b",
+          "600": "#00ca48",
+          "700": "#009e3b",
+          "800": "#007a33",
+          "900": "#02652d",
+          "950": "#003916",
+        },
       },
     },
   },
