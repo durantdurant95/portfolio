@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FiFileText, FiMail, FiPhone } from "react-icons/fi";
-import { notoSerif } from "../fonts";
 
 type Props = {};
 
@@ -11,8 +10,8 @@ const Contact = (props: Props) => {
         <div>photo here</div>
       </section>
       <section className="flex w-1/2 flex-col justify-center gap-8">
-        <h1 className={`${notoSerif.className} text-[6vw]`}>Hello 👋</h1>
-        <p className="text-balance text-xl">
+        <h1 className="text-[6vw]">Hello 👋</h1>
+        <p className="mr-2 text-balance text-xl leading-relaxed">
           I craft websites that are not only visually appealing but also
           intuitive and user-friendly. Let&apos;s create a website that your
           visitors will love using! Get in touch today.

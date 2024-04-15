@@ -16,37 +16,37 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.className} text-celtic-950 bg-celtic-50 flex min-h-screen flex-col justify-center bg-opacity-30 p-4 md:h-screen md:p-6 lg:p-8 xl:p-12 2xl:p-16`}
+        className={`${montserrat.className} flex flex-col bg-celtic-50 bg-opacity-30 p-4 text-celtic-950 md:h-screen md:p-6 lg:p-8 xl:p-12`}
       >
         <nav className="flex items-center justify-center gap-4">
-          <div className="bg-celtic-950 h-[1px] grow" />
+          <div className="h-[1px] grow bg-celtic-950" />
           <Link
-            className="before:bg-celtic-300 relative inline-block p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-1 before:w-full hover:scale-[1.02] hover:uppercase before:hover:h-5 before:hover:transform before:hover:duration-300"
+            className="relative inline-block p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-1 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:uppercase before:hover:h-5 before:hover:transform before:hover:duration-300"
             href="/"
           >
             DURANT.DEV
           </Link>
-          <div className="bg-celtic-950 h-[1px] grow" />
+          <div className="h-[1px] grow bg-celtic-950" />
         </nav>
         {children}
         <Analytics />
         <SpeedInsights />
         <footer className="flex items-center justify-center gap-6">
-          <div className="bg-celtic-950 h-[1px] w-4" />
+          <div className="h-[1px] w-4 bg-celtic-950" />
           <Link
             href="https://github.com/durantdurant95"
-            className="before:bg-celtic-300 relative inline-block h-8 w-8 p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[10px] before:w-full hover:scale-[1.02] hover:uppercase before:hover:h-7 before:hover:transform before:hover:duration-300"
+            className="relative inline-block h-8 w-8 p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[10px] before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:uppercase before:hover:h-7 before:hover:transform before:hover:duration-300"
           >
             <FiGithub className="h-5 w-5 pl-1" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/alejandro-p%C3%A9rez-dur%C3%A1n-754a8324a/"
-            className="before:bg-celtic-300 relative inline-block h-8 w-8 p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[10px] before:w-full hover:scale-[1.02] hover:uppercase before:hover:h-7 before:hover:transform before:hover:duration-300"
+            className="relative inline-block h-8 w-8 p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[10px] before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:uppercase before:hover:h-7 before:hover:transform before:hover:duration-300"
           >
             <FiLinkedin className="h-5 w-5 pl-1" />
           </Link>
-          <div className="bg-celtic-950 h-[1px] grow" />
-          <p className="text-xs">©/2024</p>
+          <div className="h-[1px] grow bg-celtic-950" />
+          <p className="text-xs">© / 2024</p>
         </footer>
       </body>
     </html>
