@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { notoSerif } from "../fonts";
 
-const about = () => {
+export default function AboutPage() {
   return (
     <main className="flex grow gap-8">
       <section className="flex w-1/2 flex-col gap-5">
-        <h1 className={`${notoSerif.className} text-[6vw]`}>ABOUT ME</h1>
+        <h1 className="text-[6vw]">ABOUT ME</h1>
         <h2 className="text-2xl font-semibold">I&apos;m Alejandro 👋</h2>
         <h2 className="text-2xl font-semibold">
           Engineer, Web Developer and competent Problem Solver 💡
@@ -45,18 +44,16 @@ const about = () => {
         <p>
           Are you looking for a skilled and passionate front-end developer?
           <Link
-            className="before:bg-celtic-300 relative ml-3 inline-block p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-1 before:w-full hover:scale-[1.02] hover:uppercase before:hover:h-5 before:hover:transform before:hover:duration-300"
+            className="relative ml-3 inline-block p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-1 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:uppercase before:hover:h-5 before:hover:transform before:hover:duration-300"
             href="/contact"
           >
             Let&apos;s connect!
           </Link>
         </p>
       </section>
-      <section className="w-1/2 grow border border-main">
+      <section className="border-main w-1/2 grow border">
         <div>photo here</div>
       </section>
     </main>
   );
-};
-
-export default about;
+}
