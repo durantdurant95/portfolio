@@ -5,17 +5,21 @@ type Props = {};
 
 const Contact = (props: Props) => {
   return (
-    <main className="flex grow gap-8">
-      <section className="border-main w-1/2 grow border">
+    <main className="lg: flex grow flex-col gap-8 lg:flex-row">
+      <section className="border-main grow border lg:w-1/2">
         <div>photo here</div>
       </section>
-      <section className="flex w-1/2 flex-col justify-center gap-8">
-        <h1 className="text-[6vw]">Hello 👋</h1>
+      <section className="flex flex-col justify-center gap-8 lg:w-1/2">
+        <h1 className="text-8xl">Hello 👋</h1>
         <p className="mr-2 text-balance text-xl leading-relaxed">
           I craft websites that are not only visually appealing but also
           intuitive and user-friendly. Let&apos;s create a website that your
-          visitors will love using! Get in touch today.
+          visitors will love using!
         </p>
+        <p className="mr-2 text-balance text-xl leading-relaxed">
+          Get in touch today.
+        </p>
+
         <Link
           href="/Alejandro_Resume.pdf"
           download
