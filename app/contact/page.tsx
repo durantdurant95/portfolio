@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { FiFileText, FiMail, FiPhone } from "react-icons/fi";
 
-type Props = {};
-
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <main className="lg: flex grow flex-col gap-8 lg:flex-row">
       <section className="border-main grow border lg:w-1/2">
