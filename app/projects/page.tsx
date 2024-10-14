@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <main className="flex grow flex-col justify-around gap-10 md:flex-row lg:justify-between">
+    <main className="flex grow flex-col justify-around gap-10 md:flex-row md:justify-between">
       <section className="flex w-full flex-col justify-center gap-10 lg:w-2/5">
         <h1 className="text-bold text-5xl lg:text-right">
           Bringing Ideas to Life
