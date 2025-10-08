@@ -48,7 +48,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <FiLinkedin className="h-5 w-5 pl-1" />
           </Link>
           <div className="h-[1px] grow bg-celtic-950" />
-          <p className="text-xs">© / 2024</p>
+          <p className="text-xs">© / 2025</p>
         </footer>
       </body>
     </html>
