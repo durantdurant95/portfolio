@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <main className="flex grow gap-8">
-      <section className="flex w-1/2 flex-col gap-5">
+    <main className="flex grow flex-col gap-8 md:flex-row">
+      <section className="flex flex-col gap-5 md:w-1/2">
         <h1 className="text-[6vw]">ABOUT ME</h1>
         <h2 className="text-2xl font-semibold">I&apos;m Alejandro 👋</h2>
         <h2 className="text-2xl font-semibold">
@@ -51,7 +51,7 @@ export default function AboutPage() {
           </Link>
         </p>
       </section>
-      <section className="border-main w-1/2 grow border">
+      <section className="border-main grow border">
         <div>photo here</div>
       </section>
     </main>

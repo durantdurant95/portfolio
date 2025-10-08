@@ -20,7 +20,7 @@ const Home = () => {
         </h2>
       </section>
       {/* Links section */}
-      <section className="relative mt-2 flex flex-col items-end justify-center gap-14 text-4xl font-light md:text-6xl lg:text-7xl xl:text-8xl">
+      <section className="relative mt-2 flex flex-col items-end justify-center gap-14 text-5xl font-light md:text-6xl lg:text-7xl xl:text-8xl">
         <Link
           href="/about"
           className="relative ml-3 p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-3 before:left-0 before:-z-10 before:h-4 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-20 before:hover:transform before:hover:duration-300  lg:before:hover:h-24 xl:before:hover:h-32"
