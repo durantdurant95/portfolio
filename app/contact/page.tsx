@@ -8,7 +8,9 @@ const Contact = () => {
         <div className="text-center text-celtic-600">photo here</div>
       </section>
       <section className="flex flex-col justify-center gap-6 lg:w-1/2 lg:gap-7">
-        <h1 className="text-5xl font-light md:text-6xl lg:text-7xl">Hello 👋</h1>
+        <h1 className="text-5xl font-light md:text-6xl lg:text-7xl">
+          Hello 👋
+        </h1>
         <p className="text-balance text-lg leading-relaxed text-celtic-900 md:text-xl">
           I craft websites that are not only visually appealing but also
           intuitive and user-friendly. Let&apos;s create a website that your
