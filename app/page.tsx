@@ -14,12 +14,12 @@ const Home = () => {
           </div>
         </div>
         <h2 className="text-xl font-light md:text-2xl lg:text-xl xl:text-2xl">
-          Passionate <span className="font-semibold">Frontend Developer</span>{" "}
-          who loves bringing ideas to life.
+          Experienced <span className="font-semibold">Web Developer</span>{" "}
+          committed to developing bleeding-edge software.
         </h2>
         <h2 className="text-lg font-light md:text-xl lg:text-lg xl:text-xl">
-          Let&apos;s collaborate and create something amazing{" "}
-          <span className="font-semibold">together!</span>
+          Let&apos;s build something{" "}
+          <span className="font-semibold">exceptional</span> together.
         </h2>
       </section>
 
@@ -37,12 +37,12 @@ const Home = () => {
         >
           EXPERIENCE
         </Link>
-        <Link
+        {/* <Link
           href="/projects"
           className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
         >
           PROJECTS
-        </Link>
+        </Link> */}
         <Link
           href="/contact"
           className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
