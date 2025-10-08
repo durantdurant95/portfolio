@@ -42,7 +42,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <FiGithub className="h-5 w-5 pl-1" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/alejandro-p%C3%A9rez-dur%C3%A1n-754a8324a/"
+            href="https://www.linkedin.com/in/alejandro-perez-duran/"
             className="relative inline-block h-8 w-8 p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[10px] before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:uppercase before:hover:h-7 before:hover:transform before:hover:duration-300"
           >
             <FiLinkedin className="h-5 w-5 pl-1" />
