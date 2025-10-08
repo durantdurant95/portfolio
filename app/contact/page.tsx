@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FiFileText, FiMail, FiPhone } from "react-icons/fi";
+import { FiFileText, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
 const Contact = () => {
   return (
@@ -12,17 +12,24 @@ const Contact = () => {
           Hello 👋
         </h1>
         <p className="text-balance text-lg leading-relaxed text-celtic-900 md:text-xl">
-          I craft websites that are not only visually appealing but also
-          intuitive and user-friendly. Let&apos;s create a website that your
-          visitors will love using!
+          I specialize in building high-quality web applications — from
+          interactive dashboards and embeddable components to complete project
+          management platforms. Let&apos;s create something exceptional that
+          delivers real value to your users.
         </p>
         <p className="text-balance text-lg leading-relaxed text-celtic-900 md:text-xl">
-          Get in touch today.
+          Currently available for remote opportunities worldwide. Fluent in{" "}
+          <span className="font-semibold">English</span> and{" "}
+          <span className="font-semibold">Spanish</span>.
+        </p>
+        <p className="text-balance text-lg leading-relaxed text-celtic-900 md:text-xl">
+          Ready to collaborate? Let&apos;s connect and discuss your next
+          project.
         </p>
 
         <div className="flex flex-col gap-4 pt-2">
           <Link
-            href="/Alejandro_Resume.pdf"
+            href="/Alejandro_Perez_Duran_CV.pdf"
             download
             className="relative flex w-fit items-center gap-2 p-1 text-base font-semibold transition-all duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[6px] before:w-full before:bg-celtic-300 hover:scale-[1.02] before:hover:h-7 before:hover:duration-300 md:text-lg"
           >
@@ -37,11 +44,22 @@ const Contact = () => {
             apduran95@gmail.com
           </Link>
           <Link
-            href="tel:+5358184065"
+            href="https://www.linkedin.com/in/alejandro-p%C3%A9rez-dur%C3%A1n-754a8324a/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative flex w-fit items-center gap-2 p-1 text-base font-semibold transition-all duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[6px] before:w-full before:bg-celtic-300 hover:scale-[1.02] before:hover:h-7 before:hover:duration-300 md:text-lg"
           >
-            <FiPhone className="h-5 w-5" />
-            +53 58 18 40 65
+            <FiLinkedin className="h-5 w-5" />
+            Connect on LinkedIn
+          </Link>
+          <Link
+            href="https://github.com/durantdurant95"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative flex w-fit items-center gap-2 p-1 text-base font-semibold transition-all duration-300 ease-in-out before:absolute before:bottom-1 before:left-0 before:-z-10 before:h-[6px] before:w-full before:bg-celtic-300 hover:scale-[1.02] before:hover:h-7 before:hover:duration-300 md:text-lg"
+          >
+            <FiGithub className="h-5 w-5" />
+            View my GitHub
           </Link>
         </div>
       </section>
