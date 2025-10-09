@@ -8,7 +8,7 @@ const Experience = () => {
         <div>
           <h2 className="text-2xl font-semibold">Frontend Developer</h2>
           <h3 className="text-xl font-medium text-celtic-700">GapAI</h3>
-          <p className="text-sm text-celtic-600">
+          <p className="text-sm text-celtic-900">
             Florida, USA (Remote) • Apr 2025 - Aug 2025
           </p>
         </div>
@@ -49,7 +49,7 @@ const Experience = () => {
         <div>
           <h2 className="text-2xl font-semibold">Frontend Developer</h2>
           <h3 className="text-xl font-medium text-celtic-700">Middlesoft</h3>
-          <p className="text-sm text-celtic-600">
+          <p className="text-sm text-celtic-900">
             Montevideo, Uruguay (Remote) • Oct 2024 - Jan 2025
           </p>
         </div>
@@ -89,7 +89,7 @@ const Experience = () => {
         <div>
           <h2 className="text-2xl font-semibold">Lead Frontend Developer</h2>
           <h3 className="text-xl font-medium text-celtic-700">Datamart</h3>
-          <p className="text-sm text-celtic-600">
+          <p className="text-sm text-celtic-900">
             Santiago, Chile (Remote) • Feb 2023 - Sep 2024
           </p>
         </div>
@@ -132,7 +132,7 @@ const Experience = () => {
         <div>
           <h2 className="text-2xl font-semibold">Frontend Developer</h2>
           <h3 className="text-xl font-medium text-celtic-700">Smerida</h3>
-          <p className="text-sm text-celtic-600">
+          <p className="text-sm text-celtic-900">
             Florida, USA (Remote) • Jan 2022 - Dec 2022
           </p>
         </div>
@@ -164,7 +164,7 @@ const Experience = () => {
           <h3 className="text-xl font-medium text-celtic-700">
             Universidad Central &quot;Marta Abreu&quot; de Las Villas
           </h3>
-          <p className="text-sm text-celtic-600">
+          <p className="text-sm text-celtic-900">
             Villa Clara, Cuba • Graduated Dec 2021
           </p>
         </div>

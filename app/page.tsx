@@ -27,25 +27,25 @@ const Home = () => {
       <section className="relative flex flex-col items-start justify-center gap-8 text-5xl font-light md:items-end md:gap-10 md:text-6xl lg:gap-12 lg:text-7xl xl:gap-14 xl:text-8xl">
         <Link
           href="/about"
-          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
+          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-black before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
         >
           ABOUT
         </Link>
         <Link
           href="/experience"
-          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
+          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-black before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
         >
           EXPERIENCE
         </Link>
         {/* <Link
           href="/projects"
-          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
+          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-black before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
         >
           PROJECTS
         </Link> */}
         <Link
           href="/contact"
-          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-extrabold before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
+          className="relative p-1 transition-all duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-3 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-black before:hover:h-16 before:hover:duration-300 md:before:bottom-3 md:before:h-4 md:before:hover:h-20 lg:before:hover:h-24 xl:before:hover:h-32"
         >
           CONTACT
         </Link>

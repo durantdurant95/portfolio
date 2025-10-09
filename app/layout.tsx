@@ -22,7 +22,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <nav className="sticky top-0 z-10 flex items-center justify-center gap-4 bg-celtic-50 bg-opacity-30 px-4 py-4 backdrop-blur-sm md:px-6 lg:px-8 xl:px-12">
           <div className="h-[1px] grow bg-celtic-950" />
           <Link
-            className="relative inline-block p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-1 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:uppercase before:hover:h-5 before:hover:transform before:hover:duration-300"
+            className="relative inline-block p-1 font-bold transition duration-300 ease-in-out before:absolute before:bottom-2 before:left-0 before:-z-10 before:h-1 before:w-full before:bg-celtic-300 hover:scale-[1.02] hover:font-black hover:uppercase before:hover:h-5 before:hover:transform before:hover:duration-300"
             href="/"
           >
             DURANT.DEV
